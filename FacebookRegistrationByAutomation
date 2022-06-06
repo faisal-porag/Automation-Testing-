@@ -24,7 +24,7 @@ public class FacebookRegistration {
 		//surname 
 		driver.findElement(By.xpath(".//*[@id='u_0_3']")).sendKeys("abc");
 		Thread.sleep(2000);
-		//mobile no or email
+		//mobile no or email address
 		driver.findElement(By.xpath(".//*[@id='u_0_5']")).sendKeys("something@something.com");
 		Thread.sleep(2000);
 		//re-enter mobile no or email
